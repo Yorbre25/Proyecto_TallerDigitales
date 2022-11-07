@@ -1,0 +1,219 @@
+# Reading pref.tcl
+# do Proyecto_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/XorN.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:56 on Nov 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/XorN.sv 
+# -- Compiling module XorN
+# 
+# Top level modules:
+# 	XorN
+# End time: 16:48:56 on Nov 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/Suma.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:56 on Nov 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/Suma.sv 
+# -- Compiling module Suma
+# 
+# Top level modules:
+# 	Suma
+# End time: 16:48:57 on Nov 07,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/RightShift.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:57 on Nov 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/RightShift.sv 
+# -- Compiling module RightShift
+# 
+# Top level modules:
+# 	RightShift
+# End time: 16:48:57 on Nov 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/Resta.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:57 on Nov 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/Resta.sv 
+# -- Compiling module Resta
+# 
+# Top level modules:
+# 	Resta
+# End time: 16:48:58 on Nov 07,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/Overflow.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:58 on Nov 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/Overflow.sv 
+# -- Compiling module Overflow
+# 
+# Top level modules:
+# 	Overflow
+# End time: 16:48:58 on Nov 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/OrN.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:58 on Nov 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/OrN.sv 
+# -- Compiling module OrN
+# 
+# Top level modules:
+# 	OrN
+# End time: 16:48:58 on Nov 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/Mux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:58 on Nov 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/Mux.sv 
+# -- Compiling module Mux
+# 
+# Top level modules:
+# 	Mux
+# End time: 16:48:59 on Nov 07,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/Multiplicacion.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:59 on Nov 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/Multiplicacion.sv 
+# -- Compiling module Multiplicacion
+# 
+# Top level modules:
+# 	Multiplicacion
+# End time: 16:48:59 on Nov 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/Modulo.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:59 on Nov 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/Modulo.sv 
+# -- Compiling module Modulo
+# 
+# Top level modules:
+# 	Modulo
+# End time: 16:48:59 on Nov 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/LeftShift.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:49:00 on Nov 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/LeftShift.sv 
+# -- Compiling module LeftShift
+# 
+# Top level modules:
+# 	LeftShift
+# End time: 16:49:00 on Nov 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/flag_detector.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:49:00 on Nov 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/flag_detector.sv 
+# -- Compiling module flag_detector
+# 
+# Top level modules:
+# 	flag_detector
+# End time: 16:49:00 on Nov 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/Division.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:49:00 on Nov 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/Division.sv 
+# -- Compiling module Division
+# 
+# Top level modules:
+# 	Division
+# End time: 16:49:00 on Nov 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/Calcu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:49:01 on Nov 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/Calcu.sv 
+# -- Compiling module Calcu
+# 
+# Top level modules:
+# 	Calcu
+# End time: 16:49:01 on Nov 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/AndN.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:49:01 on Nov 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/AndN.sv 
+# -- Compiling module AndN
+# 
+# Top level modules:
+# 	AndN
+# End time: 16:49:01 on Nov 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:49:01 on Nov 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/ALU.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 16:49:01 on Nov 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales {C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/testCalcu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:49:02 on Nov 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales" C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/testCalcu.sv 
+# -- Compiling module testCalcu
+# 
+# Top level modules:
+# 	testCalcu
+# End time: 16:49:02 on Nov 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  testCalcu
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" testCalcu 
+# Start time: 16:49:02 on Nov 07,2022
+# Loading sv_std.std
+# Loading work.testCalcu
+# Loading work.Calcu
+# Loading work.ALU
+# Loading work.Suma
+# Loading work.Resta
+# Loading work.Modulo
+# Loading work.Multiplicacion
+# Loading work.Division
+# Loading work.AndN
+# Loading work.OrN
+# Loading work.XorN
+# Loading work.LeftShift
+# Loading work.RightShift
+# Loading work.Mux
+# Loading work.flag_detector
+# Loading work.Overflow
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Error: Falla en la suma
+#    Time: 0 ps  Scope: testCalcu File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/testCalcu.sv Line: 11
+# ** Error: Falla en la resta
+#    Time: 5 ps  Scope: testCalcu File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/testCalcu.sv Line: 14
+# ** Error: Falla en la multiplicacion
+#    Time: 10 ps  Scope: testCalcu File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/testCalcu.sv Line: 17
+# ** Error: Falla en el modulo
+#    Time: 15 ps  Scope: testCalcu File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/testCalcu.sv Line: 20
+# ** Error: Falla en la division
+#    Time: 20 ps  Scope: testCalcu File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/testCalcu.sv Line: 23
+# ** Error: Falla en la xor
+#    Time: 35 ps  Scope: testCalcu File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/testCalcu.sv Line: 32
+# ** Error: Falla en el LShift
+#    Time: 40 ps  Scope: testCalcu File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/testCalcu.sv Line: 35
+# ** Error: Falla en la RShift
+#    Time: 45 ps  Scope: testCalcu File: C:/Users/yraul/OneDrive/Documentos/GitHub/Proyecto_TallerDigitales/testCalcu.sv Line: 38
+# End time: 16:50:17 on Nov 07,2022, Elapsed time: 0:01:15
+# Errors: 8, Warnings: 0
