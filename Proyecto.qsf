@@ -60,3 +60,5 @@ set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name QIP_FILE ROM_Pixeles.qip
 set_global_assignment -name QIP_FILE ROM_Instructions.qip
+set_global_assignment -name SYSTEMVERILOG_FILE CounterPC.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Fetch.sv
