@@ -1,0 +1,62 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/User/Documents/GitHub/Proyecto_TallerDigitales/simulation/modelsim
+vDecode
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1667922121
+!i10b 1
+!s100 3MHN1E0^f[aQXTNGnaTkX2
+IV0b5E[ALAZ37Cgo<njHg`1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 Decode_sv_unit
+S1
+R0
+Z4 w1667921912
+8C:/Users/User/Documents/GitHub/Proyecto_TallerDigitales/Decode.sv
+FC:/Users/User/Documents/GitHub/Proyecto_TallerDigitales/Decode.sv
+L0 1
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1667922121.000000
+!s107 C:/Users/User/Documents/GitHub/Proyecto_TallerDigitales/Decode.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/User/Documents/GitHub/Proyecto_TallerDigitales|C:/Users/User/Documents/GitHub/Proyecto_TallerDigitales/Decode.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work +incdir+C:/Users/User/Documents/GitHub/Proyecto_TallerDigitales
+Z9 tCvgOpt 0
+n@decode
+vTestDecode
+R1
+R2
+!i10b 1
+!s100 E:zNzGz9e8T1g2^ml]7^M0
+I?L>L4NSo;`F3:hV3lHCmN0
+R3
+!s105 TestDecode_sv_unit
+S1
+R0
+R4
+8C:/Users/User/Documents/GitHub/Proyecto_TallerDigitales/TestDecode.sv
+FC:/Users/User/Documents/GitHub/Proyecto_TallerDigitales/TestDecode.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/Documents/GitHub/Proyecto_TallerDigitales/TestDecode.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/User/Documents/GitHub/Proyecto_TallerDigitales|C:/Users/User/Documents/GitHub/Proyecto_TallerDigitales/TestDecode.sv|
+!i113 1
+R7
+R8
+R9
+n@test@decode
