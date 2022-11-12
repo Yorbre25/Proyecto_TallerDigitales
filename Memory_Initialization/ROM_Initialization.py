@@ -27,31 +27,27 @@ def form_mif_content(instructions):
     return content
 
 
-def form_mif(instructions):
-    '''
-    This takes the numpy.ndarray and creates the mif
-    '''
+def form_mem(instructions):
+    len_i = len(instructions)
+    data = []
+    for i in range(len_i):
+        data.append(instructions[i])
+    mem = '\n'.join(data)
+    return mem
 
-    mif_str_arr = form_mif_header(len(instructions) * len(instructions[0]), 8) + form_mif_content(instructions)
-    mif = '\n'.join(mif_str_arr)
-
-    return mif
-
-def write_mif_ROM(instructions, mode='x', file='ROMData.mif'):
+def write_mif_ROM(instructions, mode='x', file='ROMData.mem'):
     '''
     this writes out the mif
     '''
     equalStr = []
     for i in range(len(instructions)):
-        equalStrAux = []
         for j in range(2, len(instructions[0]), 2):
             part = instructions[i][j: j + 2]
-            equalStrAux.append(part)
-        equalStr.append(equalStrAux)
+            equalStr.append(part)
     try:
         os.remove(file)
     except:
         pass
     f = open(file, mode)
-    f.write(form_mif(equalStr))
+    f.write(form_mem(equalStr))
     f.close()
